@@ -1,0 +1,43 @@
+
+a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+a:link {
+  color: green;
+  font-weight: bold;
+}
+
+a:visited {
+  color: rgb(196, 24, 38);
+  font-weight: lighter;
+}
+
+a:hover {
+  background-color: red;
+  color: blue;
+}
+
+a::first-letter {
+  color: blueviolet;
+}
+
+
+a::before {
+  content: "<";
+  color: rgb(155, 36, 36);
+}
+
+a::after {
+  content: ">";
+  color: rgb(63, 23, 173);
+}
+
+h1:hover {
+  content: " hover cuando pasa el mouse";
+}
+
+section:active {
+  display: none;
+}
