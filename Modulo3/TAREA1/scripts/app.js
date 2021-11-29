@@ -7,12 +7,9 @@ const btn3 = document.getElementById("convertir")
 const valid = document.getElementById("validacion")
 var moninit = 0
 var monfin = 0
-
-valid.style.display = "none"
-
-
 var moneyInput = document.getElementById("input-money")
 
+valid.style.display = "none"
 
 btn1.addEventListener('click', async (e) => {
     btn1.innerHTML = ""
