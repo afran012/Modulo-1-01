@@ -39,7 +39,6 @@ btn2.addEventListener('click', async (e) => {
     ) 
 })
 
-
 btn3.addEventListener('click', async (e) => {
     console.log(moneyInput.value)
     valid.style.display = "inline"
@@ -55,4 +54,3 @@ btn3.addEventListener('click', async (e) => {
     }
 
 })
-
