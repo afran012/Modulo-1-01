@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 40rem;
+    background-color: rgb(122, 97, 97);
+}
+
+.input-money {
+    width: 30%;
+    height: 30px;
+}
+
+.img-money {
+    width: 20%;
+}
+
+button {
+    width: 7rem;
+
+}
+
+.btn-section {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+#convertir {
+    background-color: rgb(50, 71, 28);
+    color: cornsilk;
+}

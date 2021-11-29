@@ -1,0 +1,67 @@
+body {
+    background-color: #BEBEBE;
+    color: Black;
+      padding: 1%;
+  }
+  header{
+    background-color: #999999;
+      font-size: xx-large;
+      font-style: italic;
+      font-weight: bolder;
+      padding: 1%;
+  }
+  main{
+   background-color: #CCCCCC;
+      padding: 1%;
+  }
+  
+  h1{
+      background-color: #7F7F7F;
+      font-size: x-large;
+      padding: 1%;
+  }
+  
+  h2{
+      background-color: #B3B3B3;
+      font-size: large;
+      padding: 1%;
+  }
+  
+  p{
+      align-content: center;
+   background-color: #c6c4c4;
+      padding: 1%;
+  }
+  
+  em{
+   background-color: #B3B3B3;
+  }
+  
+  strong{
+   background-color: #B3B3B3;
+      padding: 1%;
+  }
+  
+  ul{
+   background-color: #999999;
+      padding: 1%;
+  }
+  
+  li{
+   background-color: #c6c4c4;
+      padding: 1%;
+  }
+  
+  footer{
+   background-color: #999999;
+      padding: 1%;
+  }
+  /* eliminamos los estilos de los enlaces*/
+  a:hover{
+    text-decoration:none;
+  }
+  a{
+    text-decoration:none;
+      color: inherit;
+  }
+  
