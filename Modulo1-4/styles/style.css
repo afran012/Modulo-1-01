@@ -1,0 +1,302 @@
+
+
+body {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    line-height: 1.5;
+    
+    width: 90%;
+    padding: 0 20px 20px 20px;
+    border: 5px solid #031e2e;
+    margin: 2em auto;
+    
+  }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  margin: 1px;
+  padding: 0;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+
+
+h1 {
+  margin: 0;
+  width: 20%;
+  padding: 0.1em 0.1em;
+  /*color: #ffffff;*/
+  text-shadow: 0.2em 0.2em 0.2em #2b2713;
+  overflow: hidden;
+  text-align: center;
+}
+
+header {
+  color: #c7cfb7;
+  background: #267e34;
+  border-bottom: 0.2em solid #031e2e;
+  width: 99%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+header img {
+  width: 5%;
+  margin: 0.5em;
+  border: 0.2em solid #031e2e;
+  border-radius: 28%;
+}
+
+/*Se le agregan ancho a los elemendos de el navegador*/
+.ul li {
+  width: 7em;
+  border-radius: 10%;
+  margin: 0.5em;
+  border-bottom: 2px solid #031e2e;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ul li a {
+  text-decoration: none;
+}
+
+.ul li:hover {
+  background: #5a5a5a;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*align-items: center;
+    align-content: space-between;
+    justify-content: space-around;*/
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 1em;
+  border: 2px solid #f7f7e8;
+}
+
+.ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 2px solid #c7cfb7;
+}
+
+/*El display del inpud se inhabilita cuando se esta en tamaño grande*/
+aside.menu input {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 32px;
+  opacity: 0;
+  z-index: 2;
+  border: 2px solid #9dad7f;
+}
+
+/*Aca se define las lineas del Menu ripo hamburguesa
+y su comportamiento al darle click al checkbox*/
+aside.menu span {
+  display: none;
+  width: 25px;
+  height: 2.5px;
+  margin-bottom: 6.5px;
+  position: relative;
+  background: #000;
+  z-index: 1;
+  -webkit-transform-origin: 0px 0px;
+          transform-origin: 0px 0px;
+}
+
+span:first-child {
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+span:nth-last-child(2) {
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+input:checked ~ span {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+input:checked ~ span:nth-last-child(2) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+}
+
+/*Cuando se hace click en el checkbox, se visualiza el Menun*/
+input:checked ~ ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 50em;
+  border-radius: 3px;
+  border: 5px solid #031e2e;
+  overflow: auto;
+}
+
+main.main_section section.news_section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main_section {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.news_section article img {
+  width: 15%;
+  margin: 0.5em;
+  border: 0.2em solid #031e2e;
+  border-radius: 28%;
+}
+
+section.news_section article p {
+  font-size: 20px;
+}
+
+.contact_form {
+  width: 35%;
+  height: 12em;
+  /*float: left;*/
+  border-radius: 3px;
+  border: 5px solid #031e2e;
+  overflow: auto;
+  /*transform: translate(176%, -470%);*/
+}
+
+.aside-bar {
+  /*box-sizing: border-box;*/
+  width: 20%;
+  height: 30em;
+  /*float: left;*/
+  border-radius: 3px;
+  border: 5px solid #031e2e;
+}
+
+@media screen and (max-width: 10px) {
+  h1 {
+    width: 70%;
+  }
+  .ul li {
+    width: 8em;
+    border-radius: 10%;
+    margin: 0.1em;
+    border-bottom: 2px solid #031e2e;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  /*Se activa la visualizacion de las lineas del menu hamburguesa*/
+  aside.menu span {
+    display: block;
+  }
+  aside.menu input {
+    display: block;
+  }
+  .ul {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    display: none;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    border-bottom: 2px solid #c7cfb7;
+  }
+  main.main_section section.news_section article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.news_section article p {
+    font-size: 15px;
+  }
+  .news_section {
+    height: 75em;
+  }
+}
+
+/*@import './menu';*/
+/*# sourceMappingURL=style.css.map */
