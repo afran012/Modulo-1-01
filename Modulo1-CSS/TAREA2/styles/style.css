@@ -1,0 +1,56 @@
+
+a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+a:link {
+  color: green;
+  font-weight: bold;
+}
+
+a:visited {
+  color: rgb(196, 24, 38);
+  font-weight: lighter;
+}
+
+a:hover {
+  background-color: red;
+  color: blue;
+}
+
+a::first-letter {
+  color: blueviolet;
+}
+
+
+a::before {
+  content: "<";
+  color: rgb(155, 36, 36);
+}
+
+a::after {
+  content: ">";
+  color: rgb(63, 23, 173);
+}
+
+
+#palabra::before { 
+  color: #c62828;
+  content: "___ ";
+}
+
+
+#palabra::after {
+  color: #2e7d32;
+  content: " *";
+}
+
+#texto::after {
+    color: #2e7d32;
+    content: ": esto no lo he escrito en el";
+}
+
+#revoloteado:hover {
+    color: #6a1b9a;
+  }
