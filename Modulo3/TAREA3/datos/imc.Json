@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "sexo": "Masculino",
+      "edad": 45,
+      "peso": 80,
+      "altura": 179
+    },
+    {
+        "sexo": "Masculino",
+        "edad": 20,
+        "peso": 90,
+        "altura": 180
+    },
+    {
+        "sexo": "Femenino",
+        "edad": 29,
+        "peso": 80,
+        "altura": 179
+    },
+    {
+        "sexo": "Masculino",
+        "edad": 29,
+        "peso": 80,
+        "altura": 179
+    },
+    {
+        "sexo": "Masculino",
+        "edad": 29,
+        "peso": 80,
+        "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+        "sexo": "Masculino",
+        "edad": 29,
+        "peso": 80,
+        "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+        "sexo": "Masculino",
+        "edad": 29,
+        "peso": 80,
+        "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+        "sexo": "Masculino",
+        "edad": 29,
+        "peso": 80,
+        "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+        "sexo": "Masculino",
+        "edad": 29,
+        "peso": 80,
+        "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      },
+      {
+          "sexo": "Masculino",
+          "edad": 29,
+          "peso": 80,
+          "altura": 179
+      }
+  ]
+}

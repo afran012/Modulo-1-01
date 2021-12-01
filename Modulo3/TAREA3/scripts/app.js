@@ -13,6 +13,8 @@ var altura = 0
 var saludable = 0
 var imc = 0
 
+var datosImc = []
+
 
 
 imgFemale.addEventListener ('click' , async (e)=> {
@@ -31,19 +33,34 @@ btnIMC.addEventListener('click', async (e) => {
     edad = inputEdad.value
     peso = inputPeso.value
     altura = inputAltura.value
+
+    var datosImc = [sexo,edad,peso,altura]
     console.log(edad,peso,altura)
     try {
 
         if (isNaN(edad) || edad == "" || edad == 0 || 
         isNaN(peso) || peso == "" || peso == 0 || 
-        isNaN(altura) || altura == "" || altura == 0 /*||
-        isNaN(sexo) || sexo == "" || sexo == 0*/)
+        isNaN(altura) || altura == "" || altura == 0 ||
+        isNaN(sexo) || sexo == "" || sexo == 0)
         {
         window.alert("Datos invalidos")
     }
     else {
         imc = peso/(Math.pow((altura/100),2))
         console.log(imc)
+
+        let userImcLocal = JSON.parse(localStorage.getItem('userImcLocal'))
+        if ( !userImcLocal ) {
+            localStorage.setItem( 'userImcLocal' , JSON.stringify([]))
+        }
+        
+        userImcLocal = JSON.parse(localStorage.getItem('userImcLocal'))
+        userImcLocal.push(datosImc)
+        localStorage.setItem( 'userImcLocal' , JSON.stringify(userImcLocal)) 
+        
+
+
+
         //window.alert(`Tu IMC es de ${imc}`)
     }
 
