@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Planetasa</title>
+</head>
+<body>
+    <h1>Ejercicio sobre los planetas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th># e planeta</th>
+                <th>PLaneta</th>
+                <th>Distancia (año luz)</th>
+                <th>Tamaño</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="number" id="n_planeta_1" class="numeración_planetas planeta1"></td>
+                <td><input type="text" id="np_planeta_1" class="nombre_planetas planeta1"></td>
+                <td><input type="number" id="d_planeta_1" class="distancia_planetas planeta1"></td>
+                <td><input type="number" id="t_planeta_1" class="Tamanio_planetas planeta1"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="n_planeta_2" class="numeración_planetas planeta2"></td>
+                <td><input type="text" id="np_planeta_2" class="nombre_planetas planeta2"></td>
+                <td><input type="number" id="d_planeta_2" class="distancia_planetas planeta2"></td>
+                <td><input type="number" id="t_planeta_2" class="Tamanio_planetas planeta2"></td>
+            </tr>
+        </tbody>
+    </table>
+    <section class="container">
+        <button id="btn_enviar_evaluacion" class="item">Enviar</button>
+        <button id="btn_ordenar_valores" class="item">Ordenar Valores</button>
+        <button id="btn_filtrar_distancia" class="item">Filtrar</button>
+        <button id="btn_buscar_planeta" class="item">Buscar</button>
+    </section>
+    <script src="./script/script.js"></script>
+</body>
+</html>
