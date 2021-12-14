@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA 1 MODULO 3</title>
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <nav class="nav nav-pills flex-column flex-sm-row navbar1">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">
+                <img src="../assets/images/film-solid.svg" alt="" class="img-logo">
+            </a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="../index.html">INICIO</a>
+            <a class="flex-sm-fill text-sm-center nav-link active" href="#">REGISTRO</a>
+        </nav>
+    </header>
+    
+    <main class="flexCenter main">
+
+        <form class="register-form" id="form">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" class="form-control" id="name" placeholder="Nombre">
+            </div>
+
+            <div class="form-group">
+              <label for="lastName">Apellido</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Apellido">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefono</label>
+                <input type="text" class="form-control" id="phone" placeholder="Telefono">
+              </div>
+
+              <div class="form-group">
+                <label for="address">Dirección</label>
+                <input type="text" class="form-control" id="address" placeholder="Dirección">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Descripción</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+          </form>
+          <button id="btnIngresar">
+              Ingresar
+          </button>
+          
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="../scripts/appRegister.js"></script>
+</body>
+</html>
+
+
+
+
+
