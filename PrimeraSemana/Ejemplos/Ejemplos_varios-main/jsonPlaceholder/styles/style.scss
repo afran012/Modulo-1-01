@@ -1,0 +1,62 @@
+body {
+  background-color: #1d2127;
+  color: #fff;
+  font-family: "Overpass Mono", monospace;
+  /* margin: 20px; */
+}
+
+button:hover {
+  font-weight: bold;
+}
+
+.container {
+  padding: 40px;
+}
+.containerButton {
+  padding: 20px;
+}
+
+.post {
+  background-color: #282c34;
+  margin-bottom: 15px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 12px;
+}
+
+.post h4 {
+  color: #98c379;
+}
+
+.post span {
+  color: #61afef;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinner {
+  opacity: 1;
+  position: relative;
+  transition: opacity linear 0.1s;
+  &::before {
+    animation: 2s linear infinite spinner;
+    border: solid 3px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid rgba(85, 0, 255, 0.15);
+    border-right: 6px solid rgba(85, 0, 255, 0.15);
+    border-bottom: 6px solid rgba(85, 0, 255, 0.15);
+    border-top: 6px solid rgba(85, 0, 255, 0.9);
+    border-radius: 50%;
+    content: "";
+    height: 40px;
+    position: absolute;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+  }
+}
