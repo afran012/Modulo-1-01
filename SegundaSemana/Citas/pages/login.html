@@ -1,60 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
     <title>Login</title>
 </head>
 <body>
 
+    <section class="section-usuario">
 
 
-    <div class="card mt-5">
-        <div class="card-body">
-            <form id="formulario">
-                <h1 class="card-title text-center"> Agregar Citas</h1>
-                <hr />
-
-                <div class="form-group row">
-                    <label class="col-sm-4 col-lg-2 col-form-label">Nombre</label>
-                    <div class="mb-4 mb-lg-0">
-                        <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Tu nombre"
-                            autoComplete="off" />
-                    </div>
-                </div>
-
-                <div class="form-group row mt-3">
-                    <label class="col-sm-4 col-lg-2 col-form-label">Fecha</label>
-                    <div class="form-group col-sm-8 col-lg-4">
-                        <input type="date" id="fecha" name="fecha" class="form-control" autoComplete="off" />
+        <div class="card mt-5">
+            <div class="card-body">
+                <form id="formulario">
+                    <h1 class="card-title text-center">Ingresar</h1>
+                    <hr />
+    
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-2 col-form-label">Correo</label>
+                        <div class="mb-4 mb-lg-0">
+                            <input type="email" id="correo" name="correo" class="form-control" placeholder="Tu correo"
+                                autoComplete="off" />
+                        </div>
                     </div>
 
-                    <label class="col-sm-4 col-lg-2 col-form-label">hora</label>
-                    <div class="form-group col-sm-8 col-lg-4">
-                        <input type="time" id="hora" name="hora" class="form-control" autoComplete="off" />
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-2 col-form-label">Contraseña</label>
+                        <div class="mb-4 mb-lg-0">
+                            <input type="password" id="contrasena" name="contrasena" class="form-control" placeholder="Tu contraseña"
+                                autoComplete="off" />
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-sm-4 col-lg-2 col-form-label">Sintomas</label>
-                    <div class="form-group">
-                        <textarea id="sintomas" name="sintomas" class="form-control" autoComplete="off">
-                        </textarea>
-                    </div>
-                </div>
 
-                <button type="submit" class="btn btn-primary">
-                    Guardar
-                </button>
-            </form>
+                    <div class="form-group row" id="div-nombre">
+                        <label class="col-sm-4 col-lg-2 col-form-label">Nombre</label>
+                        <div class="mb-4 mb-lg-0">
+                            <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Tu nombre"
+                                autoComplete="off" />
+                        </div>
+                    </div>
+    
+                    <button type="submit" class="btn btn-primary" id="btn-ingresar">
+                        Ingresar
+                    </button>
+                    <button type="button" class="btn btn-primary" id="btn-registrar">
+                        Registrar nuevo usuario
+                    </button>
+                    <button type="button" class="btn btn-primary" id="btn-crear">
+                        Crear nuevo usuario
+                    </button>
+                </form>
+            </div>
         </div>
-    </div>
 
+    </section>
 
-
-
-
-
+    <script src="../scripts/login.js"></script>
     
 </body>
 </html>
