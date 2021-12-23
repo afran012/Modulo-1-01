@@ -1,7 +1,8 @@
 
 let formulario = document.querySelector('form');
 
-
+let borrar = document.getElementById('borrar');
+console.log(borrar)
 
 let listarCita = document.getElementById('listarCita');
 let buscar = document.getElementById('btnBuscar');
@@ -76,8 +77,25 @@ buscar.addEventListener('click', e => {
                                     <div style="color:white;">${fecha}</div>
                                     <div style="color:white;">${hora}</div>
                                     <div style="color:white;">${sintomas}
-                                    <button>Borrar</Button></div><br>             
+                                    <button id="borrar">Borrar</Button></div><br>             
                 `   
              })
           )
+          borrar = document.getElementById('borrar');
+
+          borrar.addEventListener('click', e => {
+            console.log(borrar)
+            let data = JSON.parse(localStorage.getItem('Citas'));
+
+            let found = data.find( cita => cita.nombre.toLowerCase()  === input.toLowerCase());
+            console.log(found)
+            arrayIndex = data.indexOf(found)
+            console.log(arrayIndex)
+            data.splice(arrayIndex,1)
+            console.log(data)
+            localStorage.setItem('Citas',JSON.stringify(data));
+            getLocalStorage("fi");
+        })
+
 })
+
