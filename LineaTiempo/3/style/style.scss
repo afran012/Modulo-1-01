@@ -7,11 +7,18 @@
     box-sizing: border-box;
 }
 
-.header {
+.initial{
+    height: 10rem;
+}
+
+#header {
+    width: 100%;
     background-color: black;
     color: blanchedalmond;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
 }
 nav {
     width: 50%;

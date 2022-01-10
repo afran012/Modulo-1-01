@@ -6,7 +6,12 @@
   box-sizing: border-box;
 }
 
-.header {
+.initial {
+  height: 10rem;
+}
+
+#header {
+  width: 100%;
   background-color: black;
   color: blanchedalmond;
   display: -webkit-box;
@@ -15,6 +20,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
 
 nav {
