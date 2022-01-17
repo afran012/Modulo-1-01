@@ -1,0 +1,18 @@
+.grid-elementos {
+    display: flex;
+    overflow: scroll;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 2rem;
+}
+
+.sectionBanner {
+
+    align-self: center;
+    justify-self: center;
+    width: 90%;
+    height: 250px;
+    //background-image: url("../../assets/imgMain/banner.png");
+    background-image: url("../../assets/imgMain/banner.png");
+}
