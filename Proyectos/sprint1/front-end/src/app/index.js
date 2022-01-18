@@ -1,4 +1,65 @@
+//import '../style/style.css'
+import { showDiscount, showMostPopular } from './showData.js'
+import getData from "./getData.js";
 const url = "http://localhost:4000/productos";
+let discountElement = document.querySelector('.grid-discount')
+let popularElement = document.querySelector('.grid-popular')
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    const data = getData(url);
+    console.log(data)
+    showDiscount(data,discountElement);
+    showMostPopular(data,popularElement);
+
+})
+
+async(e) => {
+
+    const btnDetail = e.target.classList.contains('btn-outline-dark');
+    const id = e.target.id;
+
+    if(btnDetail){
+         const lista = await getData(endpoint);
+         const objeto = lista.find(list => list.id === Number(id))
+         localStorage.setItem("Detail",JSON.stringify(objeto));
+         window.location.href = "detail.html"
+    }
+
+    
+
+}
+
+element.addEventListener('click', async(e) => {
+
+    const btnDetail = e.target.classList.contains('btn-outline-dark');
+    const id = e.target.id;
+
+    if(btnDetail){
+         const lista = await getData(endpoint);
+         const objeto = lista.find(list => list.id === Number(id))
+         localStorage.setItem("Detail",JSON.stringify(objeto));
+         window.location.href = "detail.html"
+    }
+
+    
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*const url = "http://localhost:4000/productos";
 import '../style/style.css'
 
 const getElementos = async (url) => {
@@ -23,4 +84,5 @@ const getElementos = async (url) => {
     })
 }
 
-getElementos(url)
+getElementos(url)*/
+

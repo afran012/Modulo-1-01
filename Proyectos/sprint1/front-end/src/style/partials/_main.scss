@@ -1,4 +1,17 @@
-.grid-elementos {
+.grid-discount {
+    display: flex;
+    overflow: scroll;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 2rem;
+    margin-bottom: 4rem;
+
+    
+}
+
+
+.grid-popular {
     display: flex;
     overflow: scroll;
     border-width: 1px;
@@ -12,6 +25,7 @@
 .sectionBanner {
     display: grid;
     margin-top: 20px;
+    margin-bottom: 4rem;
     grid-template-columns: 100%;
     grid-template-columns: 100%;
     width: 100%;
