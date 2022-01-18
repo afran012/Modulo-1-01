@@ -8,43 +8,29 @@ let popularElement = document.querySelector('.grid-popular')
 document.addEventListener('DOMContentLoaded', () => {
 
     const data = getData(url);
-    console.log(data)
     showDiscount(data,discountElement);
     showMostPopular(data,popularElement);
 
 })
 
-async(e) => {
+const saveLocalStorage = async(e) => {
+    console.log("algo")
 
-    const btnDetail = e.target.classList.contains('btn-outline-dark');
+    const btnDetail = e.target.classList.contains('btnDiscount');
     const id = e.target.id;
 
     if(btnDetail){
-         const lista = await getData(endpoint);
+         const lista = await getData(url);
          const objeto = lista.find(list => list.id === Number(id))
          localStorage.setItem("Detail",JSON.stringify(objeto));
-         window.location.href = "detail.html"
+         //window.location.href = "detail.html"
     }
 
     
 
 }
 
-element.addEventListener('click', async(e) => {
-
-    const btnDetail = e.target.classList.contains('btn-outline-dark');
-    const id = e.target.id;
-
-    if(btnDetail){
-         const lista = await getData(endpoint);
-         const objeto = lista.find(list => list.id === Number(id))
-         localStorage.setItem("Detail",JSON.stringify(objeto));
-         window.location.href = "detail.html"
-    }
-
-    
-
-})
+discountElement.addEventListener('click', saveLocalStorage)
 
 
 
