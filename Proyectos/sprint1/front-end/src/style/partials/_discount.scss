@@ -1,0 +1,70 @@
+.product_card{
+    margin: 2rem;
+    border-width: 1px;
+    // border-style: solid;
+    // border-color: black;
+    width: 194px;
+    height: 418px;
+    display: grid; 
+    grid-template-rows: 10% 40% 10% 10% 30%;
+    flex-direction: column;
+}
+
+ .imgCardDiscount{
+      // width: 194px;
+      // height: 194px;
+      width: 100%;
+      height: 100%;
+   //   margin-bottom: 20px;
+ }
+
+ .descuento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5E18BB;
+    margin: 3px;
+   //  margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;;
+    font-weight:bold;
+    background-color: #F0E3FE;
+    width: 75px;
+    height: 29px;
+    border-radius: 16px;
+    line-height: 16px;
+    font-size: 12px;
+ }
+ .precios{
+    font-family: 'Poppins-ExtraBold', sans-serif;
+    font-weight:bold;
+    font-size: 16px;
+    display: flex;
+    color: #B8B4B4;
+   //  margin-bottom: 20px;
+
+ }
+
+ .precio-des  {
+     margin-right: 0.5rem;
+     color: #332927;
+ }
+
+ .precio {
+    text-decoration: line-through;
+ }
+
+ .btnDiscount {
+     font-family: 'Poppins-Regular', sans-serif;
+     font-weight:lighter;
+     margin-top: 68px;
+     background-color: #0AC763;
+     width: 194px;
+     height: 40px;
+     border-radius: 8px;
+     color: #FEFEFE;
+ }
+
+ .nombre {
+    font-family: 'Poppins-Regular', sans-serif;
+    font-weight:lighter;
+ }

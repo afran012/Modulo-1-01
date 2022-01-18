@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Formulario</h1>
+        <p id="description">
+            Formulario para encuestas
+        </p> 
+    </header>
+    <main>
+        <section>
+            <form id="survey-form">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label id="email-label" for="email" >Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                <label id="number-label" for="number" >Number</label>
+                <input type="number" id="number" name="number" min="10" max="99" placeholder="Enter your Number" required>
+
+
+                <select id="dropdown" name="role" required>
+                    <option disabled selected value>Select current option</option>
+                    <option value="option1">option1</option>
+                    <option value="option2">option2</option>
+                    <option value="option3">option3</option>
+                    <option value="option4">option4</option>
+                    <option value="option5">option5</option>
+                </select>
+
+
+                <fieldset>
+                    <legend>Cueationario</legend>
+                    <input type="radio" name="action" checked id="si" value="si" /><label for="si"> si</label><br />
+                    <input type="radio" name="action" id="no" value="no" /><label for="no">No</label><br />
+                    <input type="radio" name="action" id="talvez" value="talvez" /><label for="talvez">Tal vez</label><br />
+                </fieldset>
+
+                <p>Selecciona uno</p>
+                <input type="checkbox" id="opcion1" name="opcion1" value="opcion1">
+                <label for="opcion1"> Opcion1</label><br>
+                <input type="checkbox" id="opcion2" name="opcion2" value="opcion2">
+                <label for="opcion2">Opcion2</label><br>
+                <input type="checkbox" id="opcion3" name="opcion3" value="opcion3">
+                <label for="opcion3">Opcion3</label><br>
+
+
+
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+
+            </form>
+        </section>
+        
+    </main>
+
+    
+</body>
+</html>

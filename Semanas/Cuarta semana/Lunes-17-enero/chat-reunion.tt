@@ -1,0 +1,930 @@
+Carlos Arturo Torres Serrano08:43
+mejor ajajja 
+Alexandra Sivira08:44
+Dónde está eso?
+Franco V08:46
+tienen grupo de whatsapp?
+pa hablar si algo 
+Felipe Garcia08:48
+Que formato es mejor
+Para descargar
+'Nicolas Garcia Lopez08:51
+claro
+Juan Sebastian Giraldo08:51
+creo que png es mejor para que quede sin fondo
+Andres Taborda08:52
+no señora
+Juan Sebastian Giraldo08:52
+todo claro
+Carlos Arturo Torres Serrano08:52
+no sra
+Miguel Muñoz08:52
+Yo no sé nada de nada, jm
+Giovany Rendón Grisales08:53
+Que es eso del líder ?
+Eso con roles no nos tocó
+Si Miguel y Franco dejen de dar clase
+'Nicolas Garcia Lopez08:55
+ojala que no
+LIDA LUCIA LOPEZ LOZANO08:55
+Siga profe
+Mentor AcademiaGeek08:56
+npm i react react-dom --save
+npm init --Y
+Vrilly Castro08:58
+profe aumenta un poco la pantalla por favor
+Paola Gutierrez08:58
+puedes repetir por favor
+laura bermudez09:02
+no
+voy en proceso
+Vrilly Castro09:02
+no
+Mentor AcademiaGeek09:03
+npm i react react-dom --save
+npm init --Y
+https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+laura bermudez09:04
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+me salio este error
+'Nicolas Garcia Lopez09:04
+sara me recuerdas que tiene la carpera container
+Felipe Garcia09:04
+esas carpetas se crean solas o hay que crearlas
+me perdi
+Carlos Arturo Torres Serrano09:05
+es para agrupar despues todo lo que se haga en components
+Vrilly Castro09:05
+a mi el package-lock no me aparece
+Carlos Arturo Torres Serrano09:05
+hay que crearlas, las carpetas
+Felipe Garcia09:05
+la unica que se creo fue la de node modules
+Carlos Arturo Torres Serrano09:05
+simon!
+Hildebrando Sierra V.09:05
+Nos repasas por fa el árbol de directorios y archivos para verificar si está bien?
+Felipe Garcia09:06
+gracias
+Juan Camilo Ocampo Lopez09:06
+profe me ausento para una reunion a las 9am cuando acabe me vuelvo a unir 
+Paola Gutierrez09:08
+Sorry, name can only contain URL-friendly characters.
+package name: (clase-17 de enero)
+A  mi me sale esto!
+Tú09:08
+Es por los espacios
+Creo
+Hildebrando Sierra V.09:10
+Se puede la letra un punto más grande?
+Mentor AcademiaGeek09:11
+import React from "react";
+import ReactDom from "react-dom";
+Vrilly Castro09:13
+si a mi no me aparecen las carpetas node_modules y package-lock no me generara error mas adelante??
+Felipe Garcia09:13
+como se hacen comentarios ahi?
+del codigo
+Carlos Arturo Torres Serrano09:14
+si seleccionan un pedazo de texto y dan (shift+alt+a) pone lo que selecciono en comentarios
+Vrilly Castro09:15
+gracias 
+Cesar junior Fontalvo09:16
+la etiqueta de cierre 
+del h1
+Jose Mario09:17
+Yo los hago con ctrl+k+c
+Juan Sebastian Giraldo09:18
+toca ver los atajos que se tienen configurados en el visual
+Vrilly Castro09:21
+me regalan la linea de export por favor
+Mentor AcademiaGeek09:22
+export default About
+Vrilly Castro09:22
+gracias
+laura bermudez09:22
+no
+Cesar junior Fontalvo09:22
+si
+Hildebrando Sierra V.09:23
+se ve muy chiquito
+Paola Gutierrez09:23
+profe me podrias pasar e codigo de index y about.js, por favor me toco volver a empezar
+index.html
+Felipe Garcia09:24
+despues del about debe ir ese espeacio
+?
+About />
+Mentor AcademiaGeek09:24
+import React from "react";
+import ReactDom from "react-dom";
+import About from "./components/About";
+
+ReactDom.render(
+    <About />,
+    document.getElementById('root')
+)
+Felipe Garcia09:24
+el que es antes del slash
+Mentor AcademiaGeek09:24
+import React from 'react'
+
+const About = () => {
+    return <h1>Hola Mundo</h1>
+}
+
+export default About
+<h1>Mi portafolio</h1>
+    <div id="root"></div>
+'Nicolas Garcia Lopez09:25
+con    atl+shift + f   tambien formatea
+Mentor AcademiaGeek09:25
+npm install @babel/core @babel/preset-react @babel/preset-env babel-eslint babel-loader --save-dev
+Vrilly Castro09:27
+yo hice eso ayer, lo vuelvo a hacer??
+Mentor AcademiaGeek09:27
+npm install webpack webpack-cli html-webpack-plugin html-loader mini-css-extract-plugin@1.3.5 css-loader --save-dev
+Hildebrando Sierra V.09:28
+Instalación lenta. Un momento porfa.
+Apenas está instalando babel
+Felipe Garcia09:28
+nos puede enviar el coddigo del webpack
+Hildebrando Sierra V.09:29
+¿Esta instalación sólo se hace una vez, cierto?
+Mentor AcademiaGeek09:29
+https://gist.githubusercontent.com/jennymontoya1001/4cda0e4d2014b0b7d512a4cd94e9c99b/raw/905e4e9c8e4eaa4c7f09b24dbe761e2540285f2b/ReactWebpackBabel
+Felipe Garcia09:29
+la segunda linea
+Mentor AcademiaGeek09:29
+npm install webpack webpack-cli html-webpack-plugin html-loader mini-css-extract-plugin@1.3.5 css-loader --save-dev
+Juan Sebastian Giraldo09:30
+ese npm i, la tercera linea
+tambien verdad?
+Mentor AcademiaGeek09:30
+npm i -D webpack-dev-server
+Hildebrando Sierra V.09:31
+Qué hacemos primero entonces. 
+Yo acabo de istalar WEBPACK, 'qué sigue?
+Carlos Arturo Torres Serrano09:31
+el de babel
+Mentor AcademiaGeek09:31
+npm i -D webpack-dev-server
+Hildebrando Sierra V.09:33
+¿Dónde va el "webpack.config.js", raiz del proyecto?
+laura bermudez09:33
+yo 
+Paola Gutierrez09:33
+yo
+laura bermudez09:33
+esta muy lento
+Mentor AcademiaGeek09:35
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}
+laura bermudez09:35
+cuan el es e webpack
+Mentor AcademiaGeek09:35
+https://gist.githubusercontent.com/jennymontoya1001/4cda0e4d2014b0b7d512a4cd94e9c99b/raw/905e4e9c8e4eaa4c7f09b24dbe761e2540285f2b/ReactWebpackBabel
+laura bermudez09:35
+ok
+Mentor AcademiaGeek09:37
+h1{
+    font-size: 60px;
+    color: palevioletred;
+}
+Mentor AcademiaGeek09:42
+https://docs.google.com/document/d/1d7CTm2Odll0IbPZOuSCaXYIWYZnwdZi-/edit
+Mentor AcademiaGeek09:43
+"start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}
+Mentor AcademiaGeek09:45
+https://gist.githubusercontent.com/jennymontoya1001/4cda0e4d2014b0b7d512a4cd94e9c99b/raw/905e4e9c8e4eaa4c7f09b24dbe761e2540285f2b/ReactWebpackBabel
+Vrilly Castro09:45
+profe el comando del run es?
+Mentor AcademiaGeek09:46
+npm run start
+Juan Sebastian Giraldo09:46
+por ahora me funciono
+Vrilly Castro09:46
+gracias
+Jose Mario09:46
+No
+Hildebrando Sierra V.09:47
+Saca esto:
+modules by path ./src/ 389 bytes
+  ./src/index.js 236 bytes [built] [code generated]
+  ./src/components/About.js 153 bytes [built] [code generated]
+webpack 5.66.0 compiled successfully in 29572 ms
+Juan Sebastian Giraldo09:47
+a mi se me abre pero como con carpetas
+Hildebrando Sierra V.09:47
+Pero no habre la página
+Mentor AcademiaGeek09:47
+{
+  "name": "17-ene",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react-dom": "^17.0.2",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.16.7",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^1.3.5",
+    "webpack":
+"^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC"
+}
+Hildebrando Sierra V.09:49
+Igual me aparece a mí
+Vrilly Castro09:49
+a mi también 
+Mentor AcademiaGeek09:49
+http://localhost:3005
+Hildebrando Sierra V.09:49
+¿Dónde viste ese puerto?
+Jose Mario09:51
+Esta en el webpack.config.js
+'Nicolas Garcia Lopez09:51
+a mi me sale un error en terminal relacionado al About.css
+Juan Sebastian Giraldo09:51
+el comando es netstat –an
+en cmd
+Hildebrando Sierra V.09:52
+No me toma los estoilos
+Felipe Garcia09:52
+me sale error
+yo
+Hildebrando Sierra V.09:53
+A tí te sale el título en color "palevioletred"
+?
+Juan Camilo Ocampo Lopez10:02
+profe ya llamo a lista
+ok
+Hildebrando Sierra V.10:04
+📌 APORTE:
+Para abrir la página autómáticamente poner --open en el script START:
+    "start": "webpack serve --mode development --open",
+Mentor AcademiaGeek10:05
+npm install webpack webpack-cli html-webpack-plugin html-loader mini-css-extract-plugin@1.3.5 css-loader --save-dev
+Hildebrando Sierra V.10:05
+📌 Si se quiere abrir en un puerto diferente al puerto por defecto, se puede agregar   --port "y el número del puerto"
+Felipe Garcia10:05
+A mi ya me dio profe, con el orden babel y luego webpack. Lo habia hecho en orden inverso.
+Mentor AcademiaGeek10:08
+https://gist.githubusercontent.com/jennymontoya1001/4cda0e4d2014b0b7d512a4cd94e9c99b/raw/905e4e9c8e4eaa4c7f09b24dbe761e2540285f2b/ReactWebpackBabel
+npm i -D webpack-dev-server
+Paola Gutierrez10:09
+a mi me apararece un error en index.js
+Paola Gutierrez10:16
+ya lo resolvi, gracias profe!
+Mentor AcademiaGeek10:18
+npm install react react-dom --save
+npm init --Y
+npm install @babel/core @babel/preset-react @babel/preset-env babel-eslint babel-loader --save-dev
+npm install webpack webpack-cli html-webpack-plugin html-loader mini-css-extract-plugin@1.3.5 css-loader --save-dev
+npm i -D webpack-dev-server
+Mentor AcademiaGeek10:22
+http://localhost:3005
+laura bermudez10:23
+como se deberia a ver en el chrome
+Juan Sebastian Giraldo10:24
+ahi quedo con 2 lineas de codigo menos
+de las que tenia
+Mentor AcademiaGeek10:26
+https://github.com/jennymontoya1001/MiPrimerReactWebapckBabel
+npm i
+Hildebrando Sierra V.10:27
+Me faltaba importar el About.css. Ya me tomó los estilos 👍🏻
+Hildebrando Sierra V.10:33
+Sara, viste el mensajito sobre cómo levantar el puerto automáticamente?
+Juan Sebastian Giraldo10:35
+si todo bien
+Paola Gutierrez10:35
+si
+Cesar junior Fontalvo10:35
+por ahora si funciona jaja
+Hildebrando Sierra V.10:36
+Aquí estoy🙋🏻‍♂️
+Alexandra Sivira10:36
+presente!
+Giovany Rendón Grisales10:39
+presente
+Carlos Arturo Torres Serrano10:40
+yo 
+Miguel Muñoz10:42
+A
+Juan Sebastian Giraldo10:46
+buenaaa
+'Nicolas Garcia Lopez10:47
+perdon la demora. F
+Cesar junior Fontalvo10:47
+si
+Vrilly Castro10:47
+a mi si
+Juan Sebastian Giraldo10:47
+si
+Laura Muñoz Gil10:47
+A mi si
+Cesar junior Fontalvo10:47
+si
+Hildebrando Sierra V.10:48
+nos mandas ese LINK porfa?
+Juan Sebastian Giraldo10:48
+https://styled-components.com
+Mentor AcademiaGeek10:49
+npm install --save styled-components
+Mentor AcademiaGeek10:50
+vscode-styled-components
+Mentor AcademiaGeek10:56
+const StyledDiv = styled.div`
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+    background-color: #f49097;
+    color: #f2f5ff;
+    font-size: 2em;
+    text-shadow: 1px 1px rgba(0,0,0,.5);
+`
+Mentor AcademiaGeek10:57
+const StyledP = styled.p`
+    color: #f5e960;
+    padding: .15em .4em;
+    background: #dfb2f4;
+    border-radius: 20px;
+    border: 2px solid #f2f5ff;
+`
+Vrilly Castro10:57
+profe y abajo de ese que hay?
+Franco V10:59
+index
+Andres Taborda10:59
+en about
+Felipe Garcia10:59
+index.js
+Paola Gutierrez11:01
+me dejas ver app.js
+Hildebrando Sierra V.11:01
+Muestra el App.js porda
+Vrilly Castro11:01
+me envia la ultima parte del app por favor
+Hildebrando Sierra V.11:02
+No se está viendo la pantalla tuya
+soy yo solamente? o a alguien más le pasa?
+Paola Gutierrez11:03
+si se ve Don Hildebrando
+Jose Mario11:03
+Compiled with problems:X
+
+WARNING in ./src/index.js 4:50-53
+
+export 'default' (imported as 'App') was not found in './containers/App' (module has no exports)
+Franco V11:04
+En app colocarias todos los componentes
+y ese app lo pones en index
+porque index no se debe llenar de mucha cosa
+Vrilly Castro11:04
+profe me muestra app
+Hildebrando Sierra V.11:04
+M epueden pasar el App.js porfa?
+Vrilly Castro11:04
+x2
+Hildebrando Sierra V.11:05
+Sara, los que no hemos terminado de digitar el código nos estamos perdiendo...
+laura bermudez11:05
+me regala el codigo de app por favot
+sin los import
+Paola Gutierrez11:05
+No me funciona el css
+laura bermudez11:05
+se me cayo el internet
+Hildebrando Sierra V.11:06
+Yo por lo menos no tengo el código completo y TODO LO QUIE ESTÁN HACIENDO NO LO HE ENTENDIDO
+Nos puedes ayudar a completar el código para poder ubicarnos donde van los que están participando?
+Felipe Garcia11:07
+About es un componente y se agrega al contenedor App, y este App se llama desde el index.js
+Laura Muñoz Gil11:07
+Donde importamos en about?
+Hildebrando Sierra V.11:08
+Creo que estamos en desventaja con los que ya saben REACT. 
+Creo que vamos a la velocidad de los que ya saben y no de los que estmos aprendiendo
+Mentor AcademiaGeek11:08
+const StyledDiv = styled.div`
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+    background-color: #f49097;
+    color: #f2f5ff;
+    font-size: 2em;
+    text-shadow: 1px 1px rgba(0,0,0,.5);
+`
+const StyledP = styled.p`
+    color: #f5e960;
+    padding: .15em .4em;
+    background: #dfb2f4;
+    border-radius: 20px;
+    border: 2px solid #f2f5ff;
+`
+const App = () => {
+    return (
+        <StyledDiv>
+            <StyledP>El trabajo duro supera al talento natural</StyledP>
+            <About />
+        </StyledDiv>
+    )
+}
+import React from "react";
+import ReactDom from "react-dom";
+import App from "./containers/App";
+
+ReactDom.render(
+    <App />,
+    document.getElementById('root')
+)
+Paola Gutierrez11:10
+me sale error!
+Cesar junior Fontalvo11:10
+listo
+Miguel Muñoz11:10
+La verdad sí
+Juan Camilo Osorio11:10
+yo no se nada de react y voy donde va la profe
+Felipe Garcia11:10
+igual yo
+a veces si es bueno verificar cada archivo para no perdernos
+Camilo Andres Romero Molano11:12
+exacto
+Hildebrando Sierra V.11:12
+Insisto. No estoy de acuerdo
+Así es, Alexandra dice lo correcto
+Giovany Rendón Grisales11:13
+si es verdad
+Juan Sebastian Giraldo11:13
+a mi se me hace que vamos a una velocidad normal
+Carlos Arturo Torres Serrano11:13
+eso eso
+Franco V11:14
+exacto
+Giovany Rendón Grisales11:14
+caliente caliente
+Carlos Arturo Torres Serrano11:14
+calmacion con la calmadera ajajaj
+Franco V11:14
+JSJSJS
+laura bermudez11:14
+profe por favor mientras tanto nos muestra el app
+ay
+hay
+Jose Andres Sanchez Lopez11:15
+Ahí
+alejandro morantes11:15
+Confirmo
+Cesar junior Fontalvo11:16
+yo creo que si te quedaste tienes que decirlo y ya 
+Xiomara Garcia11:16
+no me funciona :S
+Vrilly Castro11:16
+algún compañero me indica el comando run por favor. Gracias.
+Xiomara Garcia11:16
+npm run start
+Carlos Arturo Torres Serrano11:16
+npm run start
+Vrilly Castro11:16
+gracias
+laura bermudez11:17
+si eso me paso ahora estoy con problemas de conexión 
+Cesar junior Fontalvo11:18
+que quejadera 
+Juan Camilo Osorio11:18
+exacto !
+muy de acuerdo con miguel
+Giovany Rendón Grisales11:18
+y volver a ver la grabacion
+Felipe Garcia11:19
+listo y no interrumpir en medio de una explicacion, sino esperar que termine y ahi si podeoms hablar por microfono
+Giovany Rendón Grisales11:19
+si tal cual
+Vrilly Castro11:20
+por favor, chicos se nos va el tiempo, ya todos estamos de acuerdo que hay un bocero del chat. listo
+Cesar junior Fontalvo11:20
+hace 20 minutos no avanzamos 
+Camilo Andres Romero Molano11:20
+Hildebrando ya por fabor
+sigamos
+Franco V11:21
+bueno
+sigamos
+porque este tema es extenso
+Felipe Garcia11:21
+si ya los dos compañeros se ofrecieron como voceros del chat
+Franco V11:21
+XDDDD
+Vrilly Castro11:21
+por favor
+Felipe Garcia11:21
+continuemos por favor
+Miguel Muñoz11:21
+Profe <3
+Franco V11:21
+<3
+Xiomara Garcia11:21
+Profe <3
+Felipe Garcia11:21
+mi pregunta es sobre el tema, cuando termines me das la palabra profe por fa
+Juan Camilo Osorio11:22
+Muy de acuerdo con Sara
+Miguel Muñoz11:22
+Tatiana, cómo vas? cómo te ha ido en esta corte?
+Camilo Andres Romero Molano11:22
+Alexandra si es del mismo tema, no mas, por favor
+Alexandra Sivira11:22
+no es el mismo tema Camilo.
+laura bermudez11:23
+si total sara es muy condescendiente 
+Hildebrando Sierra V.11:23
+Dale profe, así es.
+Quedo en cola para que me ayudes a revisar mi código. 👍🏻
+Laura Muñoz Gil11:23
+Profe ami me sale error, creo que copie algo mal pero no se que 
+Juan Sebastian Giraldo11:23
+me muestras porfa el index.js
+Franco V11:23
+hay guia
+repositorio
+Felipe Garcia11:23
+la guie esta en el git kraken y ya la envio
+Mentor AcademiaGeek11:24
+https://app.gitkraken.com/glo/card/8f9336bbf60446fd8f825576a2a41988
+Franco V11:25
+Profe un fa mientras jsjs
+en donde puedo ver los grupos?
+es que no lo veo en gitkraken
+Juan Sebastian Giraldo11:25
+esta es la pagina oficial de react, esta en gitkraken
+https://es.reactjs.org
+Carlos Arturo Torres Serrano11:25
+despues los van a pasar por slack
+Juan Sebastian Giraldo11:25
+y mantiene actualizada
+Franco V11:25
+ah dale
+Xiomara Garcia11:26
+me muiestran porfa el archivo App
+Juan Camilo Osorio11:26
+buen método 
+Airan Steven Franco Galeano11:30
+Perdón profe tenía problemas de conexión
+Felipe Garcia11:33
+steven mira subir lo que llevamos a una carpeta para que puedas trabajar
+https://unaledu-my.sharepoint.com/:f:/g/personal/jufgarciagi_unal_edu_co/EjIfmYr677NHroeQ9YzmWfwBbsD4NRhcfNsvfGGCz98mpg?e=aztDHQ
+Laura Muñoz Gil11:33
+A mi me sale error en el localhost
+laura bermudez11:33
+no sara sigue
+Mentor AcademiaGeek11:34
+Excelente felipe
+Vrilly Castro11:34
+debe ser que no esta exportando por que a mi tambien me salio
+Paola Gutierrez11:34
+
+No me sale hola mundo!
+Cesar junior Fontalvo11:39
+const App = () => {
+    return (
+        <StyledDiv>
+            <StyledP>El trabajo duro supera al talento natural</StyledP>
+            <About />
+        </StyledDiv>
+    )
+}
+Juan Camilo Osorio11:40
+<About />
+Paola Gutierrez11:40
+y porque ese about va ahi?
+'Nicolas Garcia Lopez11:41
+para que nos traiga el h1 que creamos en about.js segun entendi paola
+Miguel Muñoz11:41
+Profe, ya pasó el descanso?
+Franco V11:42
+hace rato jsjsjs
+Paola Gutierrez11:43
+Gracias Nicolas!
+solo con etiqueta de cierre! 
+'Nicolas Garcia Lopez11:48
+npm install --save styled-components
+Mentor AcademiaGeek11:48
+"react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+Mentor AcademiaGeek11:49
+npm i
+Mentor AcademiaGeek11:51
+https://github.com/jennymontoya1001/MiPrimerReactWebapckBabel.git
+Felipe Garcia11:53
+llama react como React o viceversa
+Mentor AcademiaGeek11:55
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+    background-color: #f49097;
+    color: #f2f5ff;
+    font-size: 2em;
+    text-shadow: 1px 1px rgba(0,0,0,.5);
+'Nicolas Garcia Lopez11:56
+Gracias 
+Felipe Garcia12:00
+https://unaledu-my.sharepoint.com/:f:/g/personal/jufgarciagi_unal_edu_co/EjIfmYr677NHroeQ9YzmWfwBbsD4NRhcfNsvfGGCz98mpg?e=aztDHQ
+Cesar junior Fontalvo12:01
+http://localhost:3005/
+Vrilly Castro12:03
+si es el miercoles. a las 8am
+Juan Camilo Ocampo Lopez12:04
+es el miercoles sino estoy mal
+Felipe Garcia12:04
+dicen que mañana hay clase a las 8am
+en el slack
+perdon el miercoles
+Paola Gutierrez12:04
+https://makaia-my.sharepoint.com/personal/catalina_escobar_makaia_org/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcatalina%5Fescobar%5Fmakaia%5Forg%2FDocuments%2FFOTOS%20PROYECTOS%2FACADEMIA%20GEEK%2FFAQ%2FRESUMEN%20SESIONES%20ORIENTACION%20LABORAL%20Y%20HAB%20SIGLO%2021%20FRONT%207%2Epdf&parent=%2Fpersonal%2Fcatalina%5Fescobar%5Fmakaia%5Forg%2FDocuments%2FFOTOS%20PROYECTOS%2FACADEMIA%20GEEK%2FFAQ
+Este link es de las capacitaciones
+Felipe Garcia12:05
+A mi ya me dio
+Paola Gutierrez12:06
+y aparecen en el slack en la parte superior donde apararecelo de as sesiones grabadas, fechas de entrega, link de meeting
+Excelente gracias andres
+Jose Mario12:07
+Buen aporte
+Felipe Garcia12:10
+se ve prometedor lo que viene
+Mentor AcademiaGeek12:10
+npm run start
+Juan Sebastian Giraldo12:11
+y hay se puede hacer keyframes?
+Mentor AcademiaGeek12:11
+&:hover{
+        background: black;
+    }
+Juan Sebastian Giraldo12:11
+yo lo consulto
+si gracias
+Hildebrando Sierra V.12:14
+"start": "webpack serve --mode development --open"
+Juan Sebastian Giraldo12:15
+todo bien
+laura bermudez12:15
+por fi sii
+'Nicolas Garcia Lopez12:16
+R
+Mentor AcademiaGeek12:16
+<div className="About">
+            <div className="About-container">
+                <div className="About-avatar">
+                    <figure>
+                        <img src="/" alt="Mi Avatar"/>
+                    </figure>
+                </div>
+                <div className="About-name">
+                    <h2>Jenny Montoya</h2>
+                </div>
+                <div className="About-profession">
+                    <p>Instructora Academia Geek</p>
+                </div>
+        
+Felipe Garcia12:16
+va copiando y pone las flechas
+creo que es asi
+Vrilly Castro12:18
+a mi tambien
+Mentor AcademiaGeek12:18
+</div>
+                <div className="About-description">
+                   <p>Medellín, Colombia</p>
+                </div>
+                <div className="About-social">
+                     Redes sociales
+                </div>
+            </div>
+        </div>
+https://docs.google.com/document/d/1Bj-ohahBSSoy61KDqeRfaELELEQIgupX/edit#
+laura bermudez12:19
+ok vamos bien 
+Vrilly Castro12:21
+a mi aun me saca error
+Mentor AcademiaGeek12:24
+const AboutStyle = styled.div`
+    text-align: center;
+`;
+ 
+const AboutAvatar = styled.div`
+    padding: 2em 0 0 0;
+`;
+ 
+const AboutImg = styled.img`
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3F51B5;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,0,0.6);
+    object-fit: cover;
+`;
+ 
+const AboutName = styled.div`
+    text-align: center;
+`;
+const AboutH2 = styled.h2`
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin: .5em 0 0 0;
+    color: #448AFF;
+`;
+ 
+const AboutProfession = styled.p`
+    margin: .2em 0 1em 0;
+    letter-spacing: 1.6px;
+    font-weight: 300;
+    color: #448AFF;
+`;
+ 
+const AboutLocation = styled.p`
+    color: #757575;
+    font-size: 1em;
+    font-weight: 400;
+`;
+Vrilly Castro12:25
+hagale tranquila profe ya
+Mentor AcademiaGeek12:31
+import {AboutAvatar, AboutH2, AboutImg, AboutLocation, AboutName, AboutProfession, AboutStyle} from '../styleds/AboutStyled'
+Vrilly Castro12:32
+profe me perdi
+Andres Taborda12:35
+en que vas compa
+laura bermudez12:36
+a mi tamien 
+Vrilly Castro12:36
+a mi tambien
+Juan Camilo Osorio12:43
+es que no hay imagen
+Cesar junior Fontalvo12:43
+a mi no me sale nada ahora 
+Tú12:44
+react-dom.development.js:67 Warning: validateDOMNesting(...): <p> cannot appear as a descendant of <p>.
+    at p
+    at p
+    at O (webpack://lunes-17-enero/./node_modules/styled-components/dist/styled-components.browser.esm.js?:29:19741)
+    at div
+    at div
+    at O (webpack://lunes-17-enero/./node_modules/styled-components/dist/styled-components.browser.esm.js?:29:19741)
+    at About
+    at div
+    at O (webpack://lunes-17-enero/./node_modules/styled-components/dist/styled-components.browser
+Las Herramientas para desarrolladores no pudieron cargar el mapa de fuentes: No se pudo cargar contenido para webpack://lunes-17-enero/node_modules/styled-components/dist/styled-components.browser.esm.js.map: Error HTTP: código de estado 404, net::ERR_UNKNOWN_URL_SCHEME
+'Nicolas Garcia Lopez12:46
+cual es el atajo que dijo franco para al ruta ?
+xfa
+laura bermudez12:46
+sr hildebrando quitando el .js 
+Vrilly Castro12:46
+sera que es por que la carpeta de styds esta por fuera del src
+??
+Felipe Garcia12:48
+a mi me sale igual
+pero funciona
+Paola Gutierrez12:48
+Profe para agregar imagenes!
+se crea una carpeta?
+ o como se hace?
+Jose Andres Sanchez Lopez12:49
+cloudinary
+Paola Gutierrez12:49
+Gracias
+laura bermudez12:51
+no se me ve asi
+Juan Sebastian Giraldo12:52
+Stiven en el about le quite las etiquetas p
+y ya se me fue el error
+Mentor AcademiaGeek12:54
+<div>
+            <h2>Estudios</h2>
+            <div className="Education-container">
+                <div className="Education-item">
+                    <h1>ITM - <span>2019</span></h1>
+                    <p>Ingenieria de sistemas</p>
+                </div>
+            </div>
+        </div>
+Tú12:54
+En vez de p que etiquetas usas?
+Disculpa Juan
+Juan Sebastian Giraldo12:55
+las deje sin etiquetas por ahora
+porque no se que poner
+pero asi me funciona
+Tú12:55
+Gracias compañero
+Mentor AcademiaGeek12:55
+const StyledH2 = styled.h2`
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+letter-spacing: 8px;
+margin: 1em 0 0 0;
+color: #448AFF;
+text-align: center;
+`;
+Mentor AcademiaGeek12:58
+export const H2Styled = ({ name }) => <StyledH2>{name}</StyledH2>
+Mentor AcademiaGeek13:01
+import styled from "styled-components";
+Cesar junior Fontalvo13:07
+tenía el mismo error 
+pero ya funcionó
+Miguel Muñoz13:08
+ay
+.-.
+Franco V13:09
+a llorar
+Vrilly Castro13:09
+profe tengo un error
+voy a compartir
+puedo?
+Felipe Garcia13:12
+yo ya la instale
+'Nicolas Garcia Lopez13:12
+sara te puedo compartir pantalla rapido que tengo un error
+Felipe Garcia13:12
+jaa
+Camilo Andres Romero Molano13:13
+hasta luego,gracias
+alejandro morantes13:13
+Gracias hasta luego
+Andres Taborda13:13
+hasta luego
+Felipe Garcia13:15
+ya les envio el whatsapp
+Laura Muñoz Gil13:16
+Yo tengo el mismo error
+Tú13:16
+Dejame el numero de tu whatsapp
+Franco V13:17
+3015766091
+Laura Muñoz Gil13:17
+si ya 
+gracias!!
+Juan Camilo Osorio13:17
+https://discord.gg/NvEx7dhw
+este es el discrod
+dicord
+discord*
+Vrilly Castro13:17
+muchísimas gracias profe
+Franco V13:17
+no llo veo
+o sea
+estoy en discord y no veo lo de whatsapp
+Tú13:19
+Ya envie tu numero al grupo para que te inviten
+Mentor AcademiaGeek13:22
+npm install mini-css-extract-plugin@1.3.5
+Mentor AcademiaGeek13:26
+/\.(css|scss)$/ 

@@ -1,0 +1,24 @@
+npm i react react-dom --save
+
+npm init --Y  
+
+npm install @babel/core @babel/preset-react @babel/preset-env babel-eslint babel-loader --save-dev
+
+
+npm install webpack webpack-cli html-webpack-plugin html-loader mini-css-extract-plugin@1.3.5 css-loader --save-dev
+
+npm install mini-css-extract-plugin@1.3.5
+
+
+npm i -D webpack-dev-server
+
+
+https://gist.githubusercontent.com/jennymontoya1001/4cda0e4d2014b0b7d512a4cd94e9c99b/raw/905e4e9c8e4eaa4c7f09b24dbe761e2540285f2b/ReactWebpackBabel
+
+
+npm install --save styled-components
+
+Mentor AcademiaGeek10:50
+
+
+vscode-styled-components
