@@ -1,4 +1,5 @@
 const url = "http://localhost:4000/productos";
+import '../style/style.css'
 
 const getElementos = async (url) => {
     let mostrarElementos = document.querySelector('.grid-elementos')

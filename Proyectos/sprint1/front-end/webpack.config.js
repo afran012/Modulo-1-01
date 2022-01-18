@@ -21,7 +21,7 @@ test: /\.js$/i,
 loader: 'babel-loader'
 },
 {
-test: /\.css$/i,
+test: /\.(css|scss)$/,
 use: [MiniCssExtractPlugin.loader, 'css-loader'],
 }
 ]

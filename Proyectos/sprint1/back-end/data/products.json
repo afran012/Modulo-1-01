@@ -6,7 +6,7 @@
             "descuento": true,
             "porcentajedes": 1,
             "precio": 26.82,
-            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+            "imagen": "https://res.cloudinary.com/doueu7nt1/image/upload/v1642464315/sprint1geek/Product_cb6m5n.png"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "descuento": true,
             "porcentajedes": 50,
             "precio": 26.82,
-            "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg"
+            "imagen": "https://res.cloudinary.com/doueu7nt1/image/upload/v1642464314/sprint1geek/Product_1_rmrvab.png"
         },
         {
             "id": 3,
