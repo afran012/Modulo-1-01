@@ -1,25 +1,29 @@
 
 .grid-discount {
+    background-color: white;
     display: flex;
     //flex-wrap: wrap;
     overflow: scroll;
     border-width: 1px;
-    border-style: solid;
-    border-color: black;
+    //border-style: solid;
+    //border-color: black;
     margin: 2rem;
     margin-bottom: 4rem;
+    border-radius: 16px;
 
     
 }
 
 
 .grid-popular {
+    background-color: white;
     display: flex;
     overflow: scroll;
-    border-width: 1px;
-    border-style: solid;
+    //border-width: 1px;
+    //border-style: solid;
     border-color: black;
     margin: 2rem;
+    border-radius: 16px;
 
     
 }

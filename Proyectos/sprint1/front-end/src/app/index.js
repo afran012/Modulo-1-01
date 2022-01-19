@@ -1,6 +1,9 @@
 //import '../style/style.css'
 import { showDiscount, showMostPopular } from './showData.js'
 import getData from "./getData.js";
+import saveCartLocalStorage from './cart.js';
+
+
 const url = "http://localhost:4000/productos";
 let discountElement = document.querySelector('.grid-discount')
 let popularElement = document.querySelector('.grid-popular')
@@ -23,24 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 })
 
-const saveLocalStorage = async(e) => {
-    console.log("algo")
-
-    const btnDetail = e.target.classList.contains('btnDiscount');
-    const id = e.target.id;
-
-    if(btnDetail){
-         const lista = await getData(url);
-         const objeto = lista.find(list => list.id === Number(id))
-         localStorage.setItem("Detail",JSON.stringify(objeto));
-         //window.location.href = "detail.html"
-    }
-
-    
-
-}
-
-discountElement.addEventListener('click', saveLocalStorage)
+discountElement.addEventListener('click', saveCartLocalStorage)
 
 
 

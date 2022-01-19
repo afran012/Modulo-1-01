@@ -34,6 +34,7 @@
 
 body {
   width: 100%;
+  background-color: #e6e6e6;
 }
 
 .header {
@@ -69,26 +70,26 @@ body {
 }
 
 .grid-discount {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow: scroll;
   border-width: 1px;
-  border-style: solid;
-  border-color: black;
   margin: 2rem;
   margin-bottom: 4rem;
+  border-radius: 16px;
 }
 
 .grid-popular {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow: scroll;
-  border-width: 1px;
-  border-style: solid;
   border-color: black;
   margin: 2rem;
+  border-radius: 16px;
 }
 
 .sectionBanner {
@@ -268,9 +269,33 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   justify-self: center;
   font-family: 'Poppins-ExtraBold', sans-serif;
   font-weight: bold;
   font-size: 16px;
+  text-align: center;
+  text-justify: auto;
+}
+
+#ubication h2 {
+  width: auto;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-self: center;
+  text-align: center;
+  text-justify: auto;
+}
+
+#ubication img {
+  width: 30px;
+  height: 24px;
 }
 /*# sourceMappingURL=style.css.map */

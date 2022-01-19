@@ -41,10 +41,29 @@
 
 #ubication {
     display: flex;
+    //grid-template-columns: 20% 80%;
     justify-content: center;
+    align-items: center;
     justify-self: center;
     font-family: 'Poppins-ExtraBold', sans-serif;
     font-weight: bold;
     font-size: 16px;
+    text-align: center;
+    text-justify:auto;
 
+}
+
+#ubication h2 {
+    width: auto;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    text-justify:auto;
+}
+
+#ubication img {
+    width: 30px;
+    height: 24px;
 }
