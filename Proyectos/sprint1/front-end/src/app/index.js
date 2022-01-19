@@ -4,6 +4,16 @@ import getData from "./getData.js";
 const url = "http://localhost:4000/productos";
 let discountElement = document.querySelector('.grid-discount')
 let popularElement = document.querySelector('.grid-popular')
+let cancelCart = document.querySelector('.cancelCart')
+let cartContainer = document.querySelector('.cartContainer')
+let liCarrito = document.querySelector('#liCarrito')
+
+
+cancelCart.onclick = ()=>{cartContainer.style.display = "none";};
+
+liCarrito.onclick = ()=>{cartContainer.style.display = "flex";};
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
