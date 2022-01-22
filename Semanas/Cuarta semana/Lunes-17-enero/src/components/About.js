@@ -12,16 +12,20 @@ const About = () => {
                     </figure>
                 </AboutAvatar>
                 <AboutName className="About-name">
-                    <AboutH2>Jenny Montoya</AboutH2>
+                    <AboutH2>Airan Steven Franco Galeano</AboutH2>
                 </AboutName>
                 <AboutProfession className="About-profession">
-                    <p>Instructora Academia Geek</p>
+                    <p>Desarrollador Full Stack</p>
                 </AboutProfession>
                 <AboutLocation className="About-description">
                    <p>Medellín, Colombia</p>
                 </AboutLocation>
                 <div className="About-social">
-                     Redes sociales
+                    
+                    <a href="www.linkedin.com/in/airan-steven-franco-galeano-7605841ba">
+                        LinkedIn
+                    </a>
+                     
                 </div>
             </div>
         </AboutStyle>

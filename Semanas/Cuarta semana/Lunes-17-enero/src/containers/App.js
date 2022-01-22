@@ -26,8 +26,8 @@ const App = () =>{
     return (
         <StyledDiv>
             {/* <StyledP>El trabajo duro supera al talento natural</StyledP> */}
-            <Education/>
             <About />
+            <Education/>
         </StyledDiv>
         
     )
