@@ -1,1 +1,0 @@
-export const url = "https://front7eh.herokuapp.com/productos";
