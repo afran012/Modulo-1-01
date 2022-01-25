@@ -1,0 +1,136 @@
+Hildebrando Sierra V.08:00
+buen día
+julian andres caballero hernandez08:20
+profe yo hoy me tengo que retirar a las 12:00, el simulacro se podría hacer en la tarde?
+Franco V08:20
+ya vuelvo voy a reiniciar
+Hildebrando Sierra V.08:20
+Gracias. Voy a mirar
+De una...
+Hildebrando Sierra V.08:21
+Mil gracias🙏🏻
+Franco V08:24
+Profe eso esta muy raro
+ya me sirvio
+pero no se que hice JAJSAJS
+que pereza
+Hildebrando Sierra V.08:27
+Profe: podemos seguirte en el EJERCICIO TERMINADO para ir tomando nota allí?
+El repositorio que dice "crudHooksCloudinary-master"
+Hildebrando Sierra V.08:33
+JACOB, porfa me puedes escribir por aquí los nombres de las extensiones para STYLE COMPONETS? - Gracias.
+Natalia Eusse08:33
+profe cuando usar .jsx y cunado .js ?
+Jacob Gonzalez08:34
+https://marketplace.visualstudio.com/items?itemName=jonkwheeler.styled-components-snippets
+https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components
+Natalia Eusse08:34
+vale gracias
+Jacob Gonzalez08:34
+ahi estan las dos extensiones que utilizo para styled-components
+Vrilly Castro08:35
+gracias
+Miguel Muñoz08:42
+Redux ujum ujum
+Franco V08:42
+mucha
+Cesar junior Fontalvo08:47
+vacio
+Mentor AcademiaGeek08:51
+https://registrohooks.herokuapp.com/registros/
+Tú08:51
+export const url = "https://registrohooks.herokuapp.com/registros/";
+Felipe Garcia08:53
+ncu -i
+ese actualiza todo
+Hildebrando Sierra V.08:53
+Profe: con AXIOS no hay que hacer el ".json()"?
+laura bermudez08:53
+cual es el comando para el axios
+por favor
+'Nicolas Garcia Lopez08:53
+npm i -g npm-check-updates
+ncu -u
+Paola Gutierrez08:54
+https://www.campusmvp.es/recursos/post/truco-actualizar-a-la-ultima-las-versiones-de-dependencias-npm-en-package-json.aspx
+'Nicolas Garcia Lopez08:55
+tambien
+toco actualizar
+alejandro morantes08:55
+Ese comando está muy bueno!
+Felipe Garcia08:55
+dale npm i
+npm i -g npm-check-updates
+ncu es lo mismo que lo de arriba
+ncu = npm check updates
+Natalia Eusse08:57
+me funciono sin ncu -u, me dio con npm i
+igual
+Felipe Garcia08:57
+a mi me toco actualizar muchas librerias viajs
+viejas*
+Hildebrando Sierra V.09:10
+Cambiar el estado
+Cambiar el estado que definimos: registyro
+Jose Andres Sanchez Lopez09:12
+Y axios trae los metedos de CRUD para invocacion directa
+Jose Andres Sanchez Lopez09:14
+Me esta empezando a caer bien axios
+Vrilly Castro09:14
+que dependencia necesito para instalarlo??
+Mentor AcademiaGeek09:15
+npm install axios
+Vrilly Castro09:15
+gracias
+laura bermudez09:16
+Gracias
+Franco V09:16
+Profe no me sirve nada otra vez
+ahg
+ahorita que acabes de explicar me ayudas con eso?
+no me sirve npm start  
+Hildebrando Sierra V.09:27
+PROFE: ¿El botón también podría tener el "key={...}"?
+Franco V09:28
+quien puso ese post XDDD
+Franco V09:35
+:)
+Hildebrando Sierra V.09:37
+En este caso por ejemplo el navbar nunca se actualiza mientras estamos LISTANDO...
+Franco V09:38
+sip
+Franco V09:40
+Profe me muestras list porfa?
+Juan Camilo Osorio09:52
+creo que los borre todos jaja
+Franco V09:52
+jajsjajsa
+Hildebrando Sierra V.09:52
+PROFE: ¿Por qué cuando se elige una imagen dice: "ningún archivo seleccionado", pero si lo toma?
+Y lo toma, pues si se le da "Enviar" si guarda la info.
+Si la toma, pero siempre sca ese mensaje.
+Juan Camilo Osorio09:54
+les recomiendo esta extensión de chrome para que les rellene los input solos sin necesidad de estar digitando cosas, muy bueno para probar forms
+Fake Filler
+Xiomara Garcia09:55
+Solo para chrome?
+Juan Camilo Osorio09:55
+🤔 me corchaste, ni idea. Yo la uso en chrome
+Mentor AcademiaGeek09:56
+https://api.cloudinary.com/v1_1/duzf4vfki/upload
+laura bermudez09:56
+jenny, si era que no estaba cogiendo los cambios
+Felipe Garcia09:57
+Salud
+Hildebrando Sierra V.10:02
+Puede subir un poquito el tamaño de la fuent?
+Mentor AcademiaGeek10:12
+regresamos 10:42 a.m
+Hildebrando Sierra V.10:14
+PROFE:
+La segunda key me la recuerdas por en la prrueba POSTMAN?
+La priemera es: V
+Mentor AcademiaGeek10:14
+file
+Hildebrando Sierra V.10:14
+ok
