@@ -10,11 +10,12 @@ const CategoriasList = ({ categorias }) => {
                         <div key={index} >
                             <h1>{cate}</h1>
                             <Cards categoria={cate} />
+                            <Cards />
                         </div>
                     )
                 })
             }
-            <Cards />
+            
         </div>
     )
 }

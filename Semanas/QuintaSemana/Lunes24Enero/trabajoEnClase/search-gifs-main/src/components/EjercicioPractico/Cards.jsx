@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import { urlG, apiKey } from '../../helpers/helpers'
+
 
 const Cards = ({ categoria }) => {
 
@@ -9,8 +11,8 @@ const Cards = ({ categoria }) => {
     }, [categoria])
 
     const fetchImgGif = async (categoria) => {
-        const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(categoria)}&limit=5&api_key=wMNYd9HLbk381KEcexeKv49ueStRnHW0`
-        const resp = await fetch(url)
+        const urlGiphy = `${urlG}${encodeURI(categoria)}&limit=5&api_key=${apiKey}`
+        const resp = await fetch(urlGiphy)
         const { data } = await resp.json()
 
         const imgData = data.map((img) => {
@@ -26,16 +28,20 @@ const Cards = ({ categoria }) => {
 
     return (
         categoria !== undefined ?
-            <ol>
+
+            
+            <ul>
                 {
                     images.map((img) => (
+
                         <li key={img.id}>
-                            <h3>{img.title}</h3>
-                            <img src={img.url} alt="imagen" />
+                                <h3>{img.title}</h3>
+                                <img src={img.url} alt="imagen" />
                         </li>
+
                     ))
                 }
-            </ol>
+            </ul>
             :
             null
     )
