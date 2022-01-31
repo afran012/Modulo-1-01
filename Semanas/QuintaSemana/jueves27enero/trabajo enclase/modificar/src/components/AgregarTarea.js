@@ -35,6 +35,18 @@ export const AgregarTarea = () => {
          })
      }
 
+
+     const modificarDatos = (datos) => {
+        // fetch(endpoint,{
+        //     method: 'PUT',
+        //     body: JSON.stringify(agregar),
+        //     headers: {
+        //        'Content-Type': 'application/json; charset=utf-8'
+        //     }
+        // })
+        console.log(datos)
+    }
+
     return (
         <div>
             <h3 className="text-center"> Agregar Tareas </h3>
@@ -75,6 +87,13 @@ export const AgregarTarea = () => {
                         onClick={() => agregarDatos()}
                         >
                         Guardar
+                    </button>
+                    <button
+                        type="submit"
+                        className="btn btn-dark"
+                        onClick={() => modificarDatos()}
+                        >
+                        Modificar
                     </button>
                 </div>
             </form>
