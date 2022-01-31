@@ -17,26 +17,26 @@ export const Navbar = () => {
                     <div className="navbar-nav">
 
                         <NavLink
-                            activeClassName="active"
+                            //activeClassName="active"
                             className="nav-item nav-link"
-                            exact
+                            //exact
                             to="/senior"
                         >
                             The Lord of the Rings
                         </NavLink>
 
                         <NavLink
-                            activeClassName="active"
+                            //activeClassName="active"
                             className="nav-item nav-link"
-                            exact
+                            //exact
                             to="/hobbit"
                         >
                             The Hobbit
                         </NavLink>
                         <NavLink
-                            activeClassName="active"
+                            //activeClassName="active"
                             className="nav-item nav-link"
-                            exact
+                            //exact
                             to="/search"
                         >
                             Search
