@@ -1,10 +1,21 @@
 import { movies } from '../data/movies';
 
+import {getData} from '../helpers/getData'
+import {url} from '../helpers/url'
+export const getMoviesByName = async ( name = '' ) => {
 
-export const getMoviesByName = ( name = '' ) => {
+    try {
+        let pjs
+        name = name.toLocaleLowerCase();
+        let personajes = await getData(url)
+        console.log(personajes.results);
+        pjs = await personajes.results.filter( movie => movie.name.toLocaleLowerCase().includes( name )  );
+        console.log(pjs);
 
-
-    name = name.toLocaleLowerCase();
-    return movies.filter( movie => movie.name.toLocaleLowerCase().includes( name )  );
-
+        return pjs
+        
+    } catch (error) {
+        console.log(error);
+        
+    }
 }

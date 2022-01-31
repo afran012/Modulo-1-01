@@ -1,1 +1,1 @@
-export const url = "https://productos2022.herokuapp.com/tareas/";
+export const url = "https://raw.githubusercontent.com/jennymontoya1001/endpointheroesjson/main/starwars.json";
