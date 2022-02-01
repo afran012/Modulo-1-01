@@ -1,5 +1,5 @@
 import React from 'react';
-import { movies } from '../data/movies';
+//import { movies } from '../data/movies';
 import { MovieCard } from './MovieCard';
 import { useForm } from '../hooks/useForm';
 import { useNavigate, useLocation } from 'react-router-dom';
