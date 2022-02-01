@@ -6,7 +6,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import querystring from 'query-string';
 import { getMoviesByName } from '../selectors/getMoviesByName';
 
-export const SeacrhScreen = () => {
+export const SeacrhScreen = ({pjData}) => {
 
     const location = useLocation();
     const { q = '' } = querystring.parse(location.search);
@@ -19,29 +19,8 @@ export const SeacrhScreen = () => {
 
     const { searchText } = values;
 
-    let arrayPj = [{}]
 
-    let moviesFiltered = async (e) => {
-        try {
-            let pjDatos = await getMoviesByName(searchText)
-            console.log(pjDatos);
-            await pjDatos.forEach(element => {
-
-                let {id,name,image} = element
-                arrayPj.push(id,name,image)
-            });
-            arrayPj.shift()
-        } catch (error) {
-            console.log(error);
-        }
-        ;
-    }
-
-
-
-
-    moviesFiltered()
-    console.log(arrayPj);
+    const moviesFiltered = getMoviesByName(searchText , pjData);
 
 
     const handleSearch = (e) => {
@@ -64,7 +43,6 @@ export const SeacrhScreen = () => {
                             className="form-control"
                             name="searchText"
                             autoComplete="off"
-                            name="searchText"
                             value={searchText}
                             onChange={handleInputChange}
                         />
@@ -76,14 +54,10 @@ export const SeacrhScreen = () => {
                     <hr />
 
                     {
-
-                        arrayPj.map(pj =>
-                                (
-                                    <MovieCard key={pj.id}
-                                        {...pj} />
-                                )
-                        )
-
+                        moviesFiltered.map(movie => (
+                            <MovieCard key={movie.id}
+                                {...movie} />
+                        ))
                     }
                 </div>
             </div>

@@ -13,6 +13,14 @@ export const Navbar = () => {
                     Movies
                 </Link>
 
+
+                <Link
+                    className="navbar-brand"
+                    to="/pruebas2"
+                >
+                    Peruba2
+                </Link>
+
                 <div className="navbar-collapse">
                     <div className="navbar-nav">
 
