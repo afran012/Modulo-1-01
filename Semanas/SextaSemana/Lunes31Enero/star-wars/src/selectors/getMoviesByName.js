@@ -8,9 +8,9 @@ export const getMoviesByName = async ( name = '' ) => {
         let pjs
         name = name.toLocaleLowerCase();
         let personajes = await getData(url)
-        console.log(personajes.results);
+        //console.log(personajes.results);
         pjs = await personajes.results.filter( movie => movie.name.toLocaleLowerCase().includes( name )  );
-        console.log(pjs);
+        //console.log(pjs);
 
         return pjs
         

@@ -2,64 +2,47 @@ import React from 'react';
 import { movies } from '../data/movies';
 import { MovieCard } from './MovieCard';
 import { useForm } from '../hooks/useForm';
-import { useNavigate,useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import querystring from 'query-string';
 import { getMoviesByName } from '../selectors/getMoviesByName';
 
 export const SeacrhScreen = () => {
 
     const location = useLocation();
-    const {q = ''} = querystring.parse(location.search);
+    const { q = '' } = querystring.parse(location.search);
 
     const navigate = useNavigate();
 
     const [values, handleInputChange] = useForm({
         searchText: q
     })
-    
+
     const { searchText } = values;
 
-    let arrayPj = []
+    let arrayPj = [{}]
 
-    let moviesFiltered = async (e)=>{
-        console.log(e)
+    let moviesFiltered = async (e) => {
         try {
             let pjDatos = await getMoviesByName(searchText)
-        //console.log(pjDatos);
-        pjDatos.forEach(element => {
-            arrayPj.push(element) 
-        });        
+            console.log(pjDatos);
+            await pjDatos.forEach(element => {
+
+                let {id,name,image} = element
+                arrayPj.push(id,name,image)
+            });
+            arrayPj.shift()
         } catch (error) {
             console.log(error);
-        } 
-    ;}
+        }
+        ;
+    }
 
-   
-    
 
-    let datos = moviesFiltered()
-    console.log(datos);
+
+
+    moviesFiltered()
     console.log(arrayPj);
 
-    let perdonaj
-    /*
-    moviesFiltered = moviesFiltered.then((pej) =>{
-        //perdonaj = pej
-        //console.log(perdonaj);
-        return pej
-    });*/
-
-    //console.log(moviesFiltered);
-
-
-    let moviecard = (moviesFiltered) => {
-        let personaje = moviesFiltered.map((movie) => {return (
-            <MovieCard key={movie.id}
-                {...movie} />
-        )})
-        return personaje
-    };
-    
 
     const handleSearch = (e) => {
         e.preventDefault();
@@ -85,21 +68,22 @@ export const SeacrhScreen = () => {
                             value={searchText}
                             onChange={handleInputChange}
                         />
-               
+
                     </form>
                 </div>
                 <div className="col-7">
                     <h4> Results </h4>
                     <hr />
-               
+
                     {
-                    
-                    /*
-                        moviesFiltered.map(movie => (
-                            <MovieCard key={movie.id}
-                                {...movie} />
-                        ))
-                        */
+
+                        arrayPj.map(pj =>
+                                (
+                                    <MovieCard key={pj.id}
+                                        {...pj} />
+                                )
+                        )
+
                     }
                 </div>
             </div>
