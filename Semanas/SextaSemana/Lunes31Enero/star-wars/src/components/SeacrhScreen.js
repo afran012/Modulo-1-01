@@ -16,11 +16,50 @@ export const SeacrhScreen = () => {
     const [values, handleInputChange] = useForm({
         searchText: q
     })
-
+    
     const { searchText } = values;
 
-    const moviesFiltered = getMoviesByName(searchText);
+    let arrayPj = []
 
+    let moviesFiltered = async (e)=>{
+        console.log(e)
+        try {
+            let pjDatos = await getMoviesByName(searchText)
+        //console.log(pjDatos);
+        pjDatos.forEach(element => {
+            arrayPj.push(element) 
+        });        
+        } catch (error) {
+            console.log(error);
+        } 
+    ;}
+
+   
+    
+
+    let datos = moviesFiltered()
+    console.log(datos);
+    console.log(arrayPj);
+
+    let perdonaj
+    /*
+    moviesFiltered = moviesFiltered.then((pej) =>{
+        //perdonaj = pej
+        //console.log(perdonaj);
+        return pej
+    });*/
+
+    //console.log(moviesFiltered);
+
+
+    let moviecard = (moviesFiltered) => {
+        let personaje = moviesFiltered.map((movie) => {return (
+            <MovieCard key={movie.id}
+                {...movie} />
+        )})
+        return personaje
+    };
+    
 
     const handleSearch = (e) => {
         e.preventDefault();
@@ -54,10 +93,13 @@ export const SeacrhScreen = () => {
                     <hr />
                
                     {
+                    
+                    /*
                         moviesFiltered.map(movie => (
                             <MovieCard key={movie.id}
                                 {...movie} />
                         ))
+                        */
                     }
                 </div>
             </div>
