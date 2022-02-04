@@ -1,11 +1,12 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import {Login} from '../components/Login';
+import Counter from '../components/Counter';
+//import {Login} from '../components/Login';
 
 export const AppRouter = () => {
     return (
        <BrowserRouter>
           <Routes>
-              <Route path="/" element={<Login />}/>
+              <Route path="/" element={<Counter />}/>
           </Routes>
        </BrowserRouter>
     )
