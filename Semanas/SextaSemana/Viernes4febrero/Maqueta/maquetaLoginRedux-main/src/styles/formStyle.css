@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(224, 176, 192);
+}
+
+.form-control{
+    box-sizing: content-box;
+    width: 25%;
+}
+
+
+form{
+    padding-left: 35%;
+}
